@@ -1,0 +1,11 @@
+@keyframes bounce {
+  0% {
+    border-width: 10px;
+  }
+  50% {
+    border-width: 14px;
+  }
+  100% {
+    border-width: 10px;
+  }
+}

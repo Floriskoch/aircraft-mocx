@@ -1,0 +1,32 @@
+#contact {
+  padding-bottom: 0;
+
+  .contact-intro {
+    padding-bottom: 150px;
+    text-align: center;
+  }
+
+  #map {
+    height: 600px;
+  }
+
+  .company-details {
+    background-color: $black;
+
+    .detail {
+      margin-top: 60px;
+      text-align: center;
+
+      h4 {
+        color: $red-2;
+      }
+    }
+  }
+
+  .table {
+
+    tbody > tr > td {
+      border: none;
+    }
+  }
+}

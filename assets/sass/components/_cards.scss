@@ -1,0 +1,70 @@
+.card {
+  background-color: $white;
+  width: 600px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  .card__title,
+  .card__content {
+
+  }
+
+  .card__title {
+    border-top: 6px solid $red-2;
+    border-bottom: none;
+    margin-top: 0;
+    padding: 50px 40px 30px;
+    //text-transform: uppercase;
+    font-size: 36px;
+
+    h3 {
+      border: none;
+      margin: 0;
+      padding: 0;
+      letter-spacing: 0.5px;
+    }
+  }
+
+  .card__content {
+    border-top: 1px solid $gray-1;
+    margin: 0 40px;
+    padding: 27px 0 40px;
+
+    h1, h2, h3, h4 {
+      font-size: 27px;
+      color: $gray-1;
+      margin: 29px 0;
+    }
+
+    p {
+      color: $black;
+    }
+
+    ul {
+      column-count: 2;
+      list-style: none;
+      padding-left: 0;
+      color: $black;
+      margin-top: 23px;
+
+      > li {
+        padding-left: 25px;
+        margin-bottom: 0;
+        position: relative;
+        @extend p;
+
+        &:before {
+          content: '';
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 10px;
+          width: 5px;
+          height: 5px;
+          background-color: $black;
+        }
+      }
+    }
+  }
+}

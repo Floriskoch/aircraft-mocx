@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  @include font-smoothing(on);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25),
+       only screen and (min-device-pixel-ratio: 1.25),
+       only screen and (min-resolution: 200dpi),
+       only screen and (min-resolution: 1.25dppx) {
+  * {
+    @include font-smoothing(off);
+  }
+}
+
+body {
+  @if $hyphens == true {
+    // Ala Trent Walton
+    // http://trentwalton.com/2011/09/07/css-hyphenation
+    hyphens: auto;
+  }
+
+  background-color: $black;
+  color: $tint;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+@if $hyphens == true {
+  abbr, acronym, blockquote, code, dir, kbd, listing, plaintext, q, samp, tt, var, xmp {
+    // http://meyerweb.com/eric/thoughts/2012/12/17/where-to-avoid-css-hyphenation
+    hyphens: none;
+  }
+}
+
+#content {
+  //padding-top: 112px;
+
+  @media screen and (min-width: $screen-md-min) {
+    //padding-top: 800px;
+  }
+}

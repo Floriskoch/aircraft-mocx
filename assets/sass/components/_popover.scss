@@ -1,0 +1,39 @@
+.popover {
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  max-width: 600px;
+  background-color: $white;
+
+  > .arrow {
+    border-color: transparent !important;
+  }
+
+  .popover-title {
+    background-color: transparent;
+    border-top: 15px solid $red-2;
+    border-bottom: none;
+    border-radius: 0;
+    margin-top: 0;
+    padding: 50px 60px 30px;
+    text-transform: uppercase;
+    font-size: 36px;
+  }
+
+  .popover-content {
+    border-top: 1px solid $gray-1;
+    margin: 0 60px 60px 60px;
+    padding: 0;
+
+    h1, h2, h3, h4 {
+      font-size: 27px;
+      color: $red-2;
+      margin: 29px 0;
+    }
+
+    p {
+      color: $black;
+    }
+  }
+}

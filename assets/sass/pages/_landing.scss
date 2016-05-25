@@ -1,0 +1,46 @@
+#landing {
+  text-align: center;
+  height: 100vh;
+  position: relative;
+
+  .landing-inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    .card {
+      width: auto;
+      transform: none;
+      top: initial;
+      margin-bottom: 15px;
+
+      @media screen and (min-width: $screen-sm-min) {
+
+        .card--left {
+          margin-right: 40px;
+        }
+
+        .card--right {
+          margin-left: 40px;
+        }
+      }
+
+      .card__content {
+        padding: 27px 0 18px;
+      }
+
+      h3 {
+        font-size: 27px;
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  .landing-header {
+    margin-bottom: 100px;
+  }
+
+  #vanvoor {
+    margin-top: 100px;
+  }
+}

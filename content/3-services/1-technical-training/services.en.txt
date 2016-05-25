@@ -1,0 +1,17 @@
+Title: Technical training
+
+----
+
+Wide: 1
+
+----
+
+Text: 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non ornare ligula. Maecenas dapibus pellentesque ipsum vel aliquet. Etiam bibendum commodo orci nec viverra. Ut erat massa, varius eget semper quis, suscipit non nibh. Quisque ut lectus sapien. Etiam iaculis in erat vel consectetur.
+
+- lijstje
+- met 
+- opsommingen
+- etc
+- bla

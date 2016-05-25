@@ -1,0 +1,9 @@
+Title: Training 2
+
+----
+
+Wide:
+
+----
+
+Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non ornare ligula.
