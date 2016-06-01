@@ -6,7 +6,41 @@
                 <?php echo $data->text()->kirbytext() ?>
             </div>
         </div>
-        <div id="map"></div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-2">
+                <div class="card text-center">
+                    <div class="card__title">
+                        <h3>Email</h3>
+                    </div>
+                    <div class="card__content">
+                        <p><?php echo $data->email() ?></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-center">
+                    <div class="card__title">
+                        <h3>Telephone</h3>
+                    </div>
+                    <div class="card__content">
+                        <p><?php echo $data->phone() ?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map-container">
+            <div class="map-contact">
+                <div class="card text-center">
+                    <div class="card__title">
+                        <h3>Contact details</h3>
+                    </div>
+                    <div class="card__content">
+                        <p><?php echo $data->details()->kirbytext() ?></p>
+                    </div>
+                </div>
+            </div>
+            <div id="map"></div>
+        </div>
 
 
     </div>

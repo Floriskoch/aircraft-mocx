@@ -1,0 +1,24 @@
+Title: Contact
+
+----
+
+Text: Nunc tincidunt ullamcorper lacus eu consectetur. Nulla non neque lacus. Mauris a interdum massa. In hac habitasse platea dictumst. Integer id urna vitae augue pulvinar porta. Integer cursus auctor mattis. Nulla lacinia dui eget dictum ullamcorper. Pellentesque accumsan enim nec tempus luctus. Cras ac mollis nunc.
+
+----
+
+Phone: +31 6 1234 5678
+
+----
+
+Email: mail@mocx.nl
+
+----
+
+Details: 
+
+details 
+- sdfasdf
+- asdfasdf
+- sdfadf
+- asdfasdf
+- sdfsdf

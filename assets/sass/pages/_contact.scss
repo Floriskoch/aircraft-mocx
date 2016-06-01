@@ -6,21 +6,26 @@
     text-align: center;
   }
 
-  #map {
-    height: 600px;
+  .map-container {
+    position: relative;
   }
 
-  .company-details {
-    background-color: $black;
+  .map-contact {
 
-    .detail {
-      margin-top: 60px;
-      text-align: center;
 
-      h4 {
-        color: $red-2;
-      }
+    @media screen and (min-width: $screen-md-min) {
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      left: 40px;
+      width: 40%;
+      transform: translateY(-50%);
     }
+  }
+
+  #map {
+    height: 600px;
+    margin: 160px -15px 0;
   }
 
   .table {

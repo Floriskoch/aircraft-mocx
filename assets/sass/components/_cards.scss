@@ -1,9 +1,7 @@
 .card {
   background-color: $white;
-  width: 600px;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-bottom: 15px;
 
   .card__title,
   .card__content {
@@ -29,16 +27,13 @@
   .card__content {
     border-top: 1px solid $gray-1;
     margin: 0 40px;
+    color: $tint;
     padding: 27px 0 40px;
 
     h1, h2, h3, h4 {
       font-size: 27px;
       color: $gray-1;
       margin: 29px 0;
-    }
-
-    p {
-      color: $black;
     }
 
     ul {

@@ -9,12 +9,12 @@ $(document).ready(function () {
 
   elementWatcher.enterViewport(function () {
     if ($(window).scrollTop() > 0) {
-      header.classList.add('down');
+      $(header).addClass('down');
     }
   });
 
   elementWatcher.exitViewport(function () {
-    if (!elementWatcher.isAboveViewport) header.classList.remove('down');
+    if (!elementWatcher.isAboveViewport) $(header).removeClass('down');
   });
 
 

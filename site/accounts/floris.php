@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - contact
   - services/technical-training
   - intro
   - services/training-3
   - services/training-2
-  - services

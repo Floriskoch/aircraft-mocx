@@ -14,7 +14,7 @@ var googleMaps = (function() {
 
         // Create a map object and specify the DOM element for display.
         var map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: 52.314061, lng: 4.6968622},
+            center: {lat: 52.314061, lng: 4.6310622},
             scrollwheel: false,
             draggable: false,
             disableDefaultUI: true,
