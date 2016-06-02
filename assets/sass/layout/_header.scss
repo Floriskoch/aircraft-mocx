@@ -8,6 +8,7 @@ header {
   z-index: 10;
   background-color: rgba($black, 0);
   transition: padding .15s ease-in-out, background-color .15s ease-in-out;
+  display: none;
 
   &.down {
     padding: 14px 0;
@@ -23,6 +24,10 @@ header {
     img {
       height: 21px;
     }
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    display: block;
   }
 }
 

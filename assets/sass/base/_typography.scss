@@ -11,8 +11,12 @@ h1 {
 
 h2 {
   color: $red-2;
-  font-size: 60px;
+  font-size: 45px;
   margin-bottom: 30px;
+
+  @media screen and (min-width: $screen-md-min) {
+    font-size: 60px;
+  }
 }
 
 h3 {

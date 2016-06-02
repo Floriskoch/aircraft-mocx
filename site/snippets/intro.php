@@ -1,4 +1,5 @@
 <section id="intro">
+    <img src="assets/build/images/logo.png" alt="logo" class="logo">
     <img src="<?php echo $data->images()->first()->url(); ?>" alt="" class="img-responsive aircraft">
     <div class="row tagline">
         <div class="col-lg-6 col-lg-offset-3 text-center">
@@ -17,23 +18,23 @@
             $placement = 'right';
         break;
             case 2:
-            $style = 'top: 37%; left: 35%;';
+            $style = 'top: 39%; left: 35%;';
             $placement = 'right';
         break;
             case 3:
-            $style = 'top: 46%; left: 46%;';
+            $style = 'top: 52%; left: 44%;';
             $placement = 'right';
         break;
             case 4:
-            $style = 'top: 41%; left: 60%;';
+            $style = 'top: 47%; left: 54%;';
             $placement = 'right';
         break;
             case 5:
-            $style = 'top: 41%; left: 79%;';
+            $style = 'top: 50%; left: 70%;';
             $placement = 'left';
         break;
             case 6:
-            $style = 'top: 36%; left: 89%;';
+            $style = 'top: 61%; left: 89%;';
             $placement = 'left';
         break;
         }

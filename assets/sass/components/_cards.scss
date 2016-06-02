@@ -37,16 +37,20 @@
     }
 
     ul {
-      column-count: 2;
       list-style: none;
       padding-left: 0;
       color: $black;
       margin-top: 23px;
 
+      @media screen and (min-width: $screen-sm-min) {
+        column-count: 2;
+      }
+
       > li {
         padding-left: 25px;
         margin-bottom: 0;
         position: relative;
+        color: $tint;
         @extend p;
 
         &:before {
@@ -57,7 +61,7 @@
           top: 10px;
           width: 5px;
           height: 5px;
-          background-color: $black;
+          background-color: $tint;
         }
       }
     }

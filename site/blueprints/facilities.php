@@ -10,3 +10,11 @@ fields:
   text:
     label: Text
     type:  textarea
+  facImage:
+    label: Card image
+    type: image
+    width: 1/2
+  icon:
+    label: Icon
+    type: image
+    width: 1/2

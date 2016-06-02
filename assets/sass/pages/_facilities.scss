@@ -9,9 +9,35 @@
     background-color: $gray-5;
     margin-bottom: 60px;
     border-top: 6px solid $red-2;
+    position: relative;
+
+    &:hover {
+
+      .facility__bg {
+        opacity: 0.4;
+        visibility: visible;
+      }
+    }
+
+    .facility__bg {
+      z-index: 1;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity .25s ease, visibility .25s ease;
+    }
 
     .facility__icon {
       padding: 40px;
+      position: relative;
+      z-index: 2;
     }
 
     @media screen and (min-width: $screen-lg-min) {
@@ -25,6 +51,8 @@
     .facility__content {
       text-align: center;
       padding: 0 40px 40px;
+      position: relative;
+      z-index: 2;
 
       h3 {
         border-top: 1px solid $gray-2;

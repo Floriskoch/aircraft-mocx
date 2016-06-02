@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - facilities/classroom
+  - facilities/examination
+  - facilities/catering
+  - facilities/fireroom
   - contact
-  - services/technical-training
-  - intro
-  - services/training-3
-  - services/training-2

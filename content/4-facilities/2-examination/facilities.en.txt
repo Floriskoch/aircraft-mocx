@@ -3,3 +3,11 @@ Title: Examination
 ----
 
 Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam, nunc eget congue dapibus, nulla nibh aliquam velit, laoreet condimentum mi felis eu magna.
+
+----
+
+Facimage: fac_exam.jpg
+
+----
+
+Icon: examination.svg

@@ -1,5 +1,6 @@
     <footer class="text-center">
-        <p>Created by Van Voor</p>
+        <p class="copyright">&copy; <?php echo date("Y") ?> Aircraftmocx. All rights reserverd.</p>
+        <a href="http://www.vanvoor.net"><img src="/assets/images/logo_vanvoor.svg" alt="Logo Van Voor" class="logo-vanvoor"></a>
     </footer>
 
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
