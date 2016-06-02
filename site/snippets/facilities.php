@@ -1,4 +1,4 @@
-<section id="facilities">
+<section id="facilities" class="inverted">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3 facilities-intro">
