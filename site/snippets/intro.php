@@ -47,4 +47,8 @@
     $i++;
     }
     ?>
+
+    <a href="#about" class="scroll-down">
+        <img src="/assets/images/arrow-down.svg" alt="">
+    </a>
 </section>
