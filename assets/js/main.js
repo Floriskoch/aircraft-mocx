@@ -3,20 +3,13 @@ $(document).ready(function () {
   var googleMaps = require('./partials/_google-maps.js');
   var scrollMonitor = require('./../../node_modules/scrollmonitor');
 
-  var servicesSection = document.getElementById('services');
-  var elementWatcher = scrollMonitor.create(servicesSection);
-  var header = document.getElementsByTagName('header')[0];
-
-  elementWatcher.enterViewport(function () {
-    if ($(window).scrollTop() > 0) {
-      $(header).addClass('down');
+  $(window).on('scroll', function() {
+    if ($(window).scrollTop() > 200) {
+      $('header').addClass('down');
+    } else {
+      $('header').removeClass('down');
     }
   });
-
-  elementWatcher.exitViewport(function () {
-    if (!elementWatcher.isAboveViewport) $(header).removeClass('down');
-  });
-
 
   // Initialize bootstrap popovers
   $("[data-toggle=popover]").popover({
