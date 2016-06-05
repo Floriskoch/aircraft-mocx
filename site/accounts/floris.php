@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - intro/spot-1
+  - intro/cockpitraam
   - facilities/classroom
   - facilities/examination
   - facilities/catering
-  - facilities/fireroom
-  - contact

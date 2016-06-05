@@ -13,7 +13,16 @@ $(document).ready(function () {
 
   // Initialize bootstrap popovers
   $("[data-toggle=popover]").popover({
-    html: true
+    html: true,
+    trigger: 'hover',
+    content: function() {
+
+      if (this.dataset.image) {
+        return '<div class="popover-content"><div class="row"><div class="col-sm-6">'+ this.dataset.text +'</div><div class="col-sm-6"><img src="'+ this.dataset.image +'" alt="" class="popover-image"></div></div></div>';
+      } else {
+        return '<div class="popover-content"><div class="row"><div class="col-sm-12">'+ this.dataset.text +'</div></div></div>';
+      }
+    }
   });
 
   $('a[href*="#"]:not([href="#"])').click(function () {

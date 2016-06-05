@@ -39,10 +39,17 @@
         break;
         }
     ?>
-    <button type="button" style="<?php echo $style; ?>" class="spot" data-placement="<?php echo $placement; ?>" data-trigger="focus" data-toggle="popover" title="<?php echo $spot->title()->html() ?>" data-content="<?php echo $spot->text()->kirbytext() ?>">
+    <?php if ($image = $spot->image()) { ?>
+    <button type="button" style="<?php echo $style; ?>" class="spot" data-placement="<?php echo $placement; ?>" data-toggle="popover" data-image="<?php echo $image->url() ?>" data-title="<?php echo $spot->title() ?>" data-text="<?php echo $spot->text()->kirbytext() ?>">
         <div class="spot__outer-circle"></div>
         <div class="spot__inner-circle"></div>
     </button>
+    <?php } else { ?>
+    <button type="button" style="<?php echo $style; ?>" class="spot" data-placement="<?php echo $placement; ?>" data-toggle="popover" data-title="<?php echo $spot->title() ?>" data-text="<?php echo $spot->text()->kirbytext() ?>">
+        <div class="spot__outer-circle"></div>
+        <div class="spot__inner-circle"></div>
+    </button>
+    <?php } ?>
     <?php
     $i++;
     }
