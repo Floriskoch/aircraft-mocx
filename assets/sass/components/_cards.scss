@@ -9,7 +9,7 @@
   }
 
   .card__title {
-    border-top: 6px solid $red-2;
+    border-top: 4px solid $red-2;
     border-bottom: none;
     margin-top: 0;
     padding: 50px 40px 30px;
@@ -43,7 +43,7 @@
       margin-top: 23px;
 
       @media screen and (min-width: $screen-sm-min) {
-        column-count: 2;
+        //column-count: 2;
       }
 
       > li {

@@ -10,6 +10,11 @@
             <div class="col-sm-10 col-sm-offset-1">
                 <div class="row">
                     <?php $i=0; foreach($data->children()->visible() as $facility): ?>
+
+                        <?php if ($i % 2 == 0 && $i > 1) { ?>
+                        </div><div class="row">
+                        <?php } ?>
+
                         <div class="col-xs-12 col-sm-6">
                             <div class="facility">
                                 <div class="facility__bg" style="background-image: url('<?php echo $facility->facImage()->toFile()->url() ?>')"></div>
